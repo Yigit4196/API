@@ -26,9 +26,9 @@ HTML_TEMPLATE = """
     <meta charset="UTF-8">
     <title>Plaka Bilgisi</title>
     <style>
-        body {{ font-family: Arial; margin: 40px; }}
-        h1 {{ color: #333; }}
-        .kutu {{ border: 1px solid #aaa; padding: 15px; border-radius: 10px; max-width: 500px; }}
+        body { font-family: Arial; margin: 40px; }
+        h1 { color: #333; }
+        .kutu { border: 1px solid #aaa; padding: 15px; border-radius: 10px; max-width: 500px; }
     </style>
 </head>
 <body>
@@ -36,7 +36,7 @@ HTML_TEMPLATE = """
     <div class="kutu">
         <p><strong>Heat No:</strong> {{ plaka["heat_no"] }}</p>
         <p><strong>Kalınlık:</strong> {{ plaka["kalinlik"] }}</p>
-        <p><strong>Cinsi:</strong> {{ plaka["cins"] }}</p>
+        <p><strong>Malzeme Cinsi:</strong> {{ plaka["cins"] }}</p>
         <p><strong>Proje:</strong> {{ plaka["proje"] }}</p>
         <p><strong>Boyutlar:</strong> {{ plaka["boyutlar"] }}</p>
         <p><strong>Durum:</strong> {{ ("Geldi" if plaka["geldi"] else "Gelmedi") }}</p>
