@@ -39,7 +39,7 @@ HTML_TEMPLATE = """
         <p><strong>Cinsi:</strong> {{ plaka["cins"] }}</p>
         <p><strong>Proje:</strong> {{ plaka["proje"] }}</p>
         <p><strong>Boyutlar:</strong> {{ plaka["boyutlar"] }}</p>
-        <p><strong>Durum:</strong> {{ "Geldi" if plaka["geldi"] else "Gelmedi" }}</p>
+        <p><strong>Durum:</strong> {{ ("Geldi" if plaka["geldi"] else "Gelmedi") }}</p>
     </div>
 </body>
 </html>
