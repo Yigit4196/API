@@ -1,11 +1,10 @@
-
 [
-    {
-        "heat_no": "HN12345",
-        "kalinlik": "5mm",
-        "cins": "St37",
-        "proje": "Proje A",
-        "boyutlar": "1250x2500",
-        "geldi": true
-    }
+  {
+    "heat_no": "TEST999",
+    "kalinlik": "10mm",
+    "cins": "304L Paslanmaz",
+    "proje": "Render Testi",
+    "boyutlar": "1500x3000",
+    "geldi": true
+  }
 ]
